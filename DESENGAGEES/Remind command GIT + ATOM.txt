@@ -1,0 +1,34 @@
+flèche du haut: dernière commande entrée
+windows + haut ou bas ou gauche ou droite: organiser l'écran 
+
+Si on veut travailler avec GIT sur un dossier: clic droit sur le dossier et cliquer sur "gitbach here"
+
+Pour créer un nouveau fichier: touch index.html
+git add index.html : pré sauvegarde le fichier index.html
+git status: permet de savoir s'il y a des fichiers non enregistrés 
+git --cached index.html: retire le fichier index.html des fichiers enregistrés 
+git rm -r --cached . : retire tous les fichiers des fichiers enregistrés
+git add *.html : ajoute tous les fichiers .html à la sauvegarde
+	         (ça peut être .jpeg; .gif ...)
+git add *html *gif : ajoute tous les fichiers html et gif à la sauvegarde 
+
+quand un doc a été supprimé par erreur du dossier (s'il a été sauvegardé) faire la manip suivante:
+git checkout index.html ou git checkout .  
+(. = tous les fichiers supprimés réapparaîtront)
+
+pour enregistrer définitivement: git commit
+enregistrer implique de commenter l'enregistrement obligatoirement
+écrire i et selectionner INSER 
+ecrire "première sauvegarde" par exemple puis cliquer sur échap 
+insérer :wq pour quitter le mode commit 
+
+git remote –v : permet de se connecter à un dépot distant 
+
+		PAGE HTML AVEC ATOM 
+
+<p> et </p> = écriture paragraphe 
+<p align="right"> ou "center" ou "left" = aligner à gauche, centré, droite 
+>> quelle diff avec <right>? je ne sais pas!
+<li> : faire un point au début de la ligne (type puce)
+pour insérer un commentaire qui m'est destiné dans le code HTML: 
+<!-- Commentaire -->
