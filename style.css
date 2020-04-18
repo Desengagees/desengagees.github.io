@@ -1,39 +1,77 @@
 /* font converted using font-converter.net. thank you! */
-@font-face {
-  font-family: abecedary;
-  src: url("./font/abecedary.eot"); /* IE9 Compat Modes */
-  src: url("./font/abecedary.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./font/abecedary.otf") format("opentype"), /* Open Type Font */
-    url("./font/abecedary.svg") format("svg"), /* Legacy iOS */
-    url("./font/abecedary.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./font/abecedary.woff") format("woff"), /* Modern Browsers */
-    url("./font/abecedary.woff2") format("woff2"); /* Modern Browsers */
-  font-weight: normal;
-  font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+html {
+  padding-top: 24px;
 }
-
 body {
-  font-family: abecedary, "Times New Roman";
-  color: #78909c;
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  color: black; /*#78909c;*/
   background-color: #FFFFFF;
-  font-size: 24px;
+  font-size: 18px;
+  max-width: 1024px;
+  padding: 48px;
+  margin: 0 auto;
+  outline: inset 12px black;
+  outline-offset: -24px;
+  padding-bottom: 96px;
 }
 
-h1, h2, h3 {
-  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+h1, h2, h3, h4 {
+  font-family: 'Special Elite', "Times New Roman", "Veteran typewriter";
+  text-align: center;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .menu {
   list-style-type: none;
   display: flex;
-    
+  justify-content: space-around;
+  padding: 0 48px;
+}
+
+.menu a {
+  font-family: 'Special Elite', monospace;
+}
+
+blockquote {
+  color: #292780;
 }
 
 a {
   text-decoration: none;
-  color: #bada55;
+  color: #292780;
   cursor: pointer;
-  padding: 0.75em 0.50em;
-  margin-left: 8em;
-  font-size: 24px;
-  }
+  font-size: 26px;
+}
+
+a:hover {
+  text-decoration: underline dashed;
+  color: black;
+}
+
+.content ul {
+  list-style-type: none;
+}
+.content li {
+  margin-top: 24px;
+}
+.content li:not(:last-child):after {
+  margin-top: 24px;
+  display: block;
+  content: '•';
+}
+
+legend {
+  color: #292780;
+  text-align: right;
+  font-style: italic;
+}

@@ -1,0 +1,18 @@
+Souhaits: 
+
+Sur la page index:
+>> créer une marge pour que le texte s'aligne dessus. 
+Réduire l'interligne. 
+
+>>Mettre le passage "Desengagées est [...] et autres passionné.e.s" dans l'écriture "Veteran Typewriter" (police 100% FREEEEE)
+
+>> ajouter une icône FB au niveau du menu à droite 
+>> centrer ce putain de menu (j'y ai passé l'aprèm padding margin left mon cul!)
+>> faire que le menu apparaisse SUR l'image backgroun genre taches noires.
+>> faire apparaître ce menu everywhere 
+
+>> créer une colomne à gauche (avec un lien vers les derniers articles)
+>> est ce possible de créer des TAG ? Et une zone tag peut être...
+
+>> En bas de chaque page, mettre: "contact: desengagees@gmail.com" 
+et pourquoi pas "Aucun pixel n'a été maltraité durant la construction de ce site..."
