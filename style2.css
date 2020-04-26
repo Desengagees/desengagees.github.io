@@ -21,15 +21,6 @@ h1, h2, h6 {
   text-align: center;
 }
  
-h3, h4, h5{
-  font-variant:small-caps; 
-  margin-top: 60px;
-}
-
-h6{
-   font-size: 200%; 
-   text-align: center;
-}
 
 .content {
   max-width: 950px;
@@ -87,22 +78,3 @@ legend {
   text-align: center;
   font-style: italic;
 }
-
-a.bouton4 {
-    padding: 12px 50px;
-    background: #C9001A;
-    color: #FFFFFF;
-    -webkit-transition: all 1.8s ease-out 0s;
-    -moz-transition: all 1.8s ease-out 0s;
-    transition: all 1.8s ease-out 0s;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    border: 4px dashed #000000;
-    }
-
-a.bouton4:hover {
-    background: #8FCF3C;
-    color: #000000;
-    border: 4px solid #34393E;
-    }

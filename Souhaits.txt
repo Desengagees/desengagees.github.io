@@ -1,17 +1,12 @@
 Souhaits: 
 
 Sur la page index:
->> barre de menu qui degouline + plus longue 
 >> ajouter une icône FB au niveau du menu à droite 
-
->> faire apparaître ce menu everywhere 
 
 >> créer une colomne à gauche (avec un lien vers les derniers articles)
 
 >> est ce possible de créer des TAG ? Et une zone tag peut être...
 
->> En bas de chaque page, mettre: "Si tu veux être exposé sur le site ou prendre contact avec nous, n'hésite pas: desengagees@gmail.com" 
-et pourquoi pas "Aucun pixel n'a été maltraité durant la construction de ce site..."
 
 >> Créer la page individuelle artiste avec les différentes oeuvres qu'il fait 
 >>sur la page artiste ajouter l'oeuvre que l'on aime 
@@ -20,5 +15,7 @@ et pourquoi pas "Aucun pixel n'a été maltraité durant la construction de ce s
 >> page dons et adhésions
 créer le groupe FB et insérer le lien 
 
+>> PAGE CONTACT ET AUTOGRAFF 
+https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Apparence_des_formulaires_HTML
 
 

@@ -16,37 +16,52 @@ body {
   padding-bottom: 96px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, .typewriter {
   font-family: 'Special Elite', "Times New Roman", "Veteran typewriter";
+}
+
+
+h1, h2, h3, .center {
   text-align: center;
 }
 
-h2 {
+h3, h4, h5 {
+  font-variant:small-caps; 
   margin-top: 60px;
 }
 
 .content {
-  max-width: 720px;
+  max-width: 975px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.content.wide {
+  max-width: 750px;
+}
+
+.important {
+  font-size: 200%;
   text-align: center;
 }
 
 .menu {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 24px 38px;
-  background-image: url(/image/AUTREBANDEAU2.jpg);
+  background-image: url(/image/bandeau.png);
   margin-left: -26px;
-  background-size: 100%;
-  width: calc(100% - 144px);
-  background-repeat: repeat-x;
- 
+  background-size: 946px;
+  width: calc(100% - 20px);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .menu a {
   font-family: 'Special Elite', monospace;
   color: #a4f48b;
+  margin-left: 22px;
 }
 
 blockquote {
@@ -80,4 +95,25 @@ legend {
   margin-top: 10%;
   text-align: center;
   font-style: italic;
+}
+
+.red {
+  color: #bf360c;
+}
+
+a.action {
+  display: inline-block;
+  padding: 12px 50px;
+  background: #C9001A;
+  color: #FFFFFF;
+  transition: all 1.8s ease-out 0s;
+  border-radius: 8px;
+  border: 4px dashed #000000;
+  margin-top: 35px;
+}
+
+a.action:hover {
+  background: #8FCF3C;
+  color: #000000;
+  border: 4px solid #34393E;
 }
