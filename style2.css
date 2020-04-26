@@ -44,6 +44,7 @@ h1, h2, h6 {
 .menu a {
   font-family: 'Special Elite', monospace;
   color: #a4f48b;
+  font-size: 50px;
 }
 
 blockquote {

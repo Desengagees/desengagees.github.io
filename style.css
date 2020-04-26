@@ -52,7 +52,7 @@ h3, h4, h5 {
   padding: 24px 38px;
   background-image: url(/image/bandeau.png);
   margin-left: -26px;
-  background-size: 946px;
+  background-size: 1050px;
   width: calc(100% - 20px);
   background-repeat: no-repeat;
   background-position: center;
@@ -62,6 +62,7 @@ h3, h4, h5 {
   font-family: 'Special Elite', monospace;
   color: #a4f48b;
   margin-left: 22px;
+  font-size: 24px
 }
 
 blockquote {
