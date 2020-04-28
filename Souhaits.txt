@@ -15,7 +15,3 @@ Sur la page index:
 >> page dons et adhésions
 créer le groupe FB et insérer le lien 
 
->> PAGE CONTACT ET AUTOGRAFF 
-https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Apparence_des_formulaires_HTML
-
-
