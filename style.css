@@ -91,6 +91,12 @@ a:hover {
   content: '•';
 }
 
+.rebours {
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 2px;
+}  
+
 legend {
   color: #292780;
   margin-top: 10%;
