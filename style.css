@@ -61,8 +61,8 @@ h3, h4, h5 {
 .menu a {
   font-family: 'Special Elite', monospace;
   color: #a4f48b;
-  margin-left: 22px;
-  font-size: 24px
+  margin-left: 13px;
+  font-size: 30px
 }
 
 blockquote {
@@ -114,6 +114,13 @@ legend {
   color: #bf360c;
 }
 
+.green {
+    color: #2E7D32;
+}
+.greenright {
+  color: #2E7D32;
+  text-align:right;
+}
 a.action {
   display: inline-block;
   padding: 12px 50px;
