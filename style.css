@@ -116,6 +116,11 @@ legend {
 .red {
   color: #bf360c;
 }
+.redright {
+  color: #bf360c;
+  text-align: right ;
+}
+
 
 a.action {
   padding: 12px 50px;
